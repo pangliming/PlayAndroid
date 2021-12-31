@@ -1,7 +1,7 @@
 package com.liming.playandroid.network
 
-import com.liming.playandroid.base.BannerBean
-import com.liming.playandroid.base.BaseModel
+import com.liming.playandroid.bean.BannerBean
+import com.liming.playandroid.bean.BaseModel
 import retrofit2.http.GET
 
 /**
@@ -11,5 +11,5 @@ import retrofit2.http.GET
 interface HomePageService {
 
     @GET("banner/json")
-    suspend fun getBanner():BaseModel<List<BannerBean>>
+    suspend fun getBanner(): BaseModel<List<BannerBean>>
 }

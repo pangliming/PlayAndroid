@@ -3,8 +3,7 @@ package com.liming.playandroid.home
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
-import com.liming.playandroid.base.BannerBean
-import com.liming.playandroid.base.BaseModel
+import com.liming.playandroid.bean.BannerBean
 
 /**
  * @author pangliming

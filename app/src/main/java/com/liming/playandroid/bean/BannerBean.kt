@@ -1,4 +1,4 @@
-package com.liming.playandroid.base
+package com.liming.playandroid.bean
 
 /**
  * @author pangliming
