@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="避免滥用Kotlin扩展函数"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/authorOrSharer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="黎明"
+            android:textSize="13sp"
+            android:textColor="@color/black_33"
+            />
+
+        <TextView
+            android:id="@+id/share_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2022-01-03"
+            android:textSize="13sp"
+            android:textColor="@color/black_33"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/authorOrSharer"
+            />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/chapter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Kotlin"
+        android:layout_gravity="right"
+        android:textSize="13sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

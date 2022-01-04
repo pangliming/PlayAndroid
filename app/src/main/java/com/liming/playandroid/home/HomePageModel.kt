@@ -12,8 +12,8 @@ import com.liming.playandroid.bean.BannerBean
 class HomePageModel constructor(private val homeRepository: HomeRepository) : ViewModel() {
     private val bannerLiveData = MutableLiveData<List<BannerBean>>()
 
-    fun getBanner() = Transformations.switchMap(bannerLiveData){
-        homeRepository.getBanner()
-    }
+    fun getBanner() = homeRepository.getBanner()
+
+    fun getArticle(index:Int) = homeRepository.getArticleList(index)
 
 }

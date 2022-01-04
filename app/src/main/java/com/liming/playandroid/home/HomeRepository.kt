@@ -13,4 +13,9 @@ class HomeRepository {
         val bannner = PlayAndroidNetWork.getBanner()
         Result.success(bannner)
     }
+
+    fun getArticleList(index:Int) = fire {
+        val artists = PlayAndroidNetWork.getHomeArticle(index)
+        Result.success(artists)
+    }
 }

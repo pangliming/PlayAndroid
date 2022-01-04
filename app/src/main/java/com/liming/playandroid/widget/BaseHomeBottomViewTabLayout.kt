@@ -35,7 +35,7 @@ abstract class BaseHomeBottomViewTabLayout @JvmOverloads constructor(
         this.viewModel = viewModel
         this.fm = fm
         if (fragments == null) {
-            fragments = arrayListOf()
+            fragments = arrayListOf ()
             fragments?.apply {
                 //加入fragment
                 getCurrentFragment(0)?.let { add(it) }
